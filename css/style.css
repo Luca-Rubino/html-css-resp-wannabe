@@ -130,6 +130,26 @@ img {
 
 /* mobile */
 
+@media (max-width: 480px) {}
+
 /* tablet */
 
-/* risoluzione tra 768px e 1160px */ 
+@media (max-width: 768px) {}
+
+/* risoluzione tra 768px e 1160px */
+
+@media (min-width: 768px) and (max-width: 1160px) {
+    * {
+        max-width: 100vw;
+        margin: 0 auto;
+    }
+}
+
+/* Breakpoints xxl: 1400px */
+
+@media (min-width: 1400px) {  
+    * {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
